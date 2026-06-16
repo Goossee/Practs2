@@ -1,0 +1,46 @@
+.home-header {
+  margin-bottom: 24px;
+}
+
+.home-title {
+  font-size: 30px;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.home-subtitle {
+  color: var(--text-muted);
+}
+
+.home-controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1;
+  min-width: 200px;
+}
+
+.sort-select {
+  padding: 10px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  transition: border-color var(--transition);
+}
+.sort-select:focus { border-color: var(--primary); }
+
+.posts-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 16px;
+}

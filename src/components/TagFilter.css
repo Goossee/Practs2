@@ -1,0 +1,23 @@
+.tag-filter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: var(--surface);
+  padding: 14px 20px;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.tag-filter-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.tag-filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
